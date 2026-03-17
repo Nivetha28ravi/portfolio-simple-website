@@ -1,0 +1,144 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: "Young Serif", serif;
+    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p1/10248868-ilustracaoial-de-formas-geometricas-abstratas-branco-e-cinza-vetor.jpg");
+}
+
+.section-one__title{
+      font-family: "Young Serif", serif;
+      font-size: 40px;
+}
+.section-one:hover{
+    background-color: olivedrab;
+}
+
+.container{
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+.section-one{
+    background-color: darkslategrey;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.section-one__role{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.section-one__contact{
+    color: white;
+    background-color: olivedrab;
+    font-size: 17px;
+}
+
+.section-two,.section-three,.section-four,.section-five{
+     padding-top: 20px;
+     font-size: 15px;
+}
+.section-three {
+    text-decoration: none;
+    display: inline-block;
+    background-color: olivedrab;
+    color: white;
+    vertical-align: top;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    height: 200px;
+    margin-left: 10px;
+}
+.section-three ul{
+    list-style: none;
+}
+
+.section-four{
+    text-decoration: none;
+    vertical-align: top;
+    background-color: rgb(125, 151, 70);
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    height: 200px;
+}
+.section-four ul{
+    list-style: none;
+}
+
+.section-five{
+    background-color: darkslategrey;
+    color: white;
+    padding-top: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.section-five__desc{
+    color: olivedrab;
+}
+.section-five:hover{
+    background-color: olivedrab;
+}
+.section-six__button{
+    height: 60px;
+    width: 150px;
+    font-family: "Young Serif", serif;
+    font-size: 20px;
+    margin-left: 570px;
+    margin-top: 20px;
+    background-color: darkslategrey;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.section-six__button:hover {
+     background-color: olivedrab;
+}
+  
+.contact-form{
+    margin-top: 20px;
+}
+.contact-form__input,.contact-form__textarea,.contact-form__submit{
+    padding: 10px;
+    margin-top: 20px;
+}
+.contact-form__input{
+    border-style: none;
+    border-bottom: solid black 1px;
+}
+.contact-form__textarea{
+    border-style: none;
+    border-bottom: solid black 1px;
+}
+.contact-form__submit{
+    background-color: olivedrab;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.section-four:hover{
+    background-color: darkslategrey ;
+}
+.section-three:hover{
+    background-color: darkslategrey ;
+}
